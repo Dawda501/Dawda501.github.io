@@ -14,7 +14,7 @@ const projects = [
     title: "SaaS Dashboard",
     description: "Analytics dashboard with real-time data visualization",
     tech: ["Next.js", "TypeScript", "Chart.js", "PostgreSQL"],
-    link: "cmsmaster.onrender.com"
+    link: "https://cmsmaestro.onrender.com"
   },
   {
     category: "design",
