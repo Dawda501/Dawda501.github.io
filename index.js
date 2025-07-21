@@ -11,10 +11,17 @@ const projects = [
   },
   {
     category: "web",
-    title: "SaaS Dashboard",
+    title: "An Inventory and Content Management System",
     description: "Analytics dashboard with real-time data visualization",
     tech: ["Next.js", "TypeScript", "Chart.js", "PostgreSQL"],
     link: "https://cmsmaestro.onrender.com"
+  },
+    {
+    category: "web",
+    title: "An Online Pastry Selling Service",
+    description: "Analytics dashboard with real-time data visualization",
+    tech: ["Next.js", "TypeScript", "Chart.js", "PostgreSQL"],
+    link: "https://eucabites.onrender.com"
   },
   {
     category: "design",
