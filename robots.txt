@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Point crawlers to your XML sitemap
+Sitemap: https://dawda501.github.io/sitemap.xml
