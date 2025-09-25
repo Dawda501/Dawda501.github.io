@@ -279,17 +279,32 @@ function renderProjects() {
 
 // Create project card
 function createProjectCard(project, index) {
-const hasImage = Boolean(project.image);
-const bgStyle = hasImage
-? style="background-image:url('${project.image}');background-size:cover;background-position:center;"
-: "";
-const card = document.createElement('div');
-card.className = 'project-card';
-card.setAttribute('data-category', project.category);
+  const hasImage = Boolean(project.image);
+  const bgStyle = hasImage
+    ? `style="background-image:url('${project.image}');background-size:cover;background-position:center;"`
+    : "";
 
-card.innerHTML =     <div class="project-image" ${bgStyle}>       ${hasImage ? "" : project.title.charAt(0)}     </div>     <div class="project-content">       <div class="project-header">         <h3 class="project-title">${project.title}</h3>         <i class="project-link" data-lucide="external-link"></i>       </div>       <p class="project-description">${project.description}</p>       <div class="project-tech">         ${project.tech.map(tech =><span class="tech-tag">${tech}</span>).join('')}       </div>     </div>   ;
+  const card = document.createElement('div');
+  card.className = 'project-card';
+  card.setAttribute('data-category', project.category);
 
-return card;
+  card.innerHTML = `
+    <div class="project-image" ${bgStyle}>
+      ${hasImage ? "" : project.title.charAt(0)}
+    </div>
+    <div class="project-content">
+      <div class="project-header">
+        <h3 class="project-title">${project.title}</h3>
+        <i class="project-link" data-lucide="external-link"></i>
+      </div>
+      <p class="project-description">${project.description}</p>
+      <div class="project-tech">
+        ${project.tech.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+      </div>
+    </div>
+  `;
+
+  return card;
 }
   
   // Add click handler
