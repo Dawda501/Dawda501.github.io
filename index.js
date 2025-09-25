@@ -11,29 +11,29 @@ const projects = [
   },
   {
     category: "web",
-    title: "An Inventory and Content Management System",
-    description: "Analytics dashboard with real-time data visualization",
-    tech: ["Next.js", "TypeScript", "Chart.js", "PostgreSQL"],
+    title: "An Inventory, Content and Personnel Management System",
+    description: "Full Stack React Application",
+    tech: ["Next.js", "MongoDB", "React", "PostgreSQL"],
     link: "https://cmsmaestro.onrender.com"
   },
     {
     category: "web",
     title: "An Online Pastry Selling Service",
-    description: "Analytics dashboard with real-time data visualization",
-    tech: ["Next.js", "TypeScript", "Chart.js", "PostgreSQL"],
+    description: "Full-stack e-commerce solution with delivery and payment terms integration",
+    tech: ["Next.js", "TypeScript", "MongoDB", "PostgreSQL"],
     link: "https://eucabites.onrender.com"
   },
   {
-    category: "design",
-    title: "Brand Identity System",
-    description: "Complete rebrand for tech startup including logo and guidelines",
-    tech: ["Adobe Illustrator", "Figma", "Brand Strategy"],
-    link: "#"
+    category: "web",
+    title: "Professional Portfolio Website",
+    description: "Complete portfolio website for a medical professional",
+    tech: ["React", "JavaScript", "Brand Strategy", "Node.js"],
+    link: "https://maggiegyamfi.site"
   },
   {
     category: "design",
     title: "Mobile App Design",
-    description: "UI/UX design for fitness tracking mobile application",
+    description: "UI/UX design for an Inventory Management Mobile Application",
     tech: ["Figma", "Prototyping", "User Testing", "Design System"],
     link: "#"
   },
@@ -45,11 +45,11 @@ const projects = [
     link: "#"
   },
   {
-    category: "writing",
-    title: "Technical Blog Series",
-    description: "20-part series on modern web development best practices",
-    tech: ["Technical Writing", "SEO", "Content Strategy", "Developer Education"],
-    link: "#"
+    category: "web",
+    title: "Professional Website for Personally co-founded Organization",
+    description: "Complete website for a Web Development/ Design and Graphic Design, Mobile Development and SaaS soltions company",
+    tech: ["React", "JavaScript", "Brand Strategy", "Node.js"],
+    link: "https://flyarcdevs.site"
   }
 ];
 
