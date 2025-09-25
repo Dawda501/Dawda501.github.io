@@ -35,7 +35,7 @@ const projects = [
     title: "Mobile App Design",
     description: "UI/UX design for an Inventory Management Mobile Application",
     tech: ["Figma", "Prototyping", "User Testing", "Design System"],
-    link: "#"
+    link: "https://lightroom.adobe.com/libraries/837b4713b61f47f893506a1a598d6ca2/assets?panel=organize&tab=photos"
   },
   {
     category: "writing",
