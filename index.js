@@ -8,34 +8,41 @@ const projects = [
     description: "Full-stack e-commerce solution with payment integration",
     tech: ["React", "Node.js", "MongoDB", "Stripe"],
     link: "https://kumbisaleh.onrender.com",
+    image: "images/kumbiSaleh.png"
   },
   {
     category: "web",
     title: "An Inventory, Content and Personnel Management System",
     description: "Full Stack React Application",
     tech: ["Next.js", "MongoDB", "React", "PostgreSQL"],
-    link: "https://cmsmaestro.onrender.com"
+    link: "https://cmsmaestro.onrender.com",
+    image: "images/cms.png"
   },
     {
     category: "web",
     title: "An Online Pastry Selling Service",
     description: "Full-stack e-commerce solution with delivery and payment terms integration",
     tech: ["Next.js", "TypeScript", "MongoDB", "PostgreSQL"],
-    link: "https://eucabites.onrender.com"
+    link: "https://eucabites.onrender.com",
+    image: "images/euca.png"
+    
   },
   {
     category: "web",
     title: "Professional Portfolio Website",
     description: "Complete portfolio website for a medical professional",
     tech: ["React", "JavaScript", "Brand Strategy", "Node.js"],
-    link: "https://maggiegyamfi.site"
+    link: "https://maggiegyamfi.site",
+    image: "images/maggie.png"
   },
   {
     category: "design",
     title: "Mobile App Design",
     description: "UI/UX design for an Inventory Management Mobile Application",
     tech: ["Figma", "Prototyping", "User Testing", "Design System"],
-    link: "https://lightroom.adobe.com/libraries/837b4713b61f47f893506a1a598d6ca2/assets?panel=organize&tab=photos"
+    link: "https://lightroom.adobe.com/libraries/837b4713b61f47f893506a1a598d6ca2/assets?panel=organize&tab=photos",
+    image: "images/imagen1.jpg"
+    
   },
   {
     category: "writing",
@@ -49,7 +56,8 @@ const projects = [
     title: "Professional Website for Personally co-founded Organization",
     description: "Complete website for a Web Development/ Design and Graphic Design, Mobile Development and SaaS soltions company",
     tech: ["React", "JavaScript", "Brand Strategy", "Node.js"],
-    link: "https://flyarcdevs.site"
+    link: "https://flyarcdevs.site",
+    image: "images/flyarcdevs.png"
   }
 ];
 
@@ -271,25 +279,18 @@ function renderProjects() {
 
 // Create project card
 function createProjectCard(project, index) {
-  const card = document.createElement('div');
-  card.className = 'project-card';
-  card.setAttribute('data-category', project.category);
-  
-  card.innerHTML = `
-    <div class="project-image">
-      ${project.title.charAt(0)}
-    </div>
-    <div class="project-content">
-      <div class="project-header">
-        <h3 class="project-title">${project.title}</h3>
-        <i class="project-link" data-lucide="external-link"></i>
-      </div>
-      <p class="project-description">${project.description}</p>
-      <div class="project-tech">
-        ${project.tech.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
-      </div>
-    </div>
-  `;
+const hasImage = Boolean(project.image);
+const bgStyle = hasImage
+? style="background-image:url('${project.image}');background-size:cover;background-position:center;"
+: "";
+const card = document.createElement('div');
+card.className = 'project-card';
+card.setAttribute('data-category', project.category);
+
+card.innerHTML =     <div class="project-image" ${bgStyle}>       ${hasImage ? "" : project.title.charAt(0)}     </div>     <div class="project-content">       <div class="project-header">         <h3 class="project-title">${project.title}</h3>         <i class="project-link" data-lucide="external-link"></i>       </div>       <p class="project-description">${project.description}</p>       <div class="project-tech">         ${project.tech.map(tech =><span class="tech-tag">${tech}</span>).join('')}       </div>     </div>   ;
+
+return card;
+}
   
   // Add click handler
   card.addEventListener('click', () => {
