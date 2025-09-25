@@ -303,9 +303,6 @@ function createProjectCard(project, index) {
       </div>
     </div>
   `;
-
-  return card;
-}
   
   // Add click handler
   card.addEventListener('click', () => {
