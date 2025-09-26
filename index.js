@@ -41,7 +41,7 @@ const projects = [
     description: "UI/UX design for an Inventory Management Mobile Application",
     tech: ["Figma", "Prototyping", "User Testing", "Design System"],
     link: "https://lightroom.adobe.com/libraries/837b4713b61f47f893506a1a598d6ca2/assets?panel=organize&tab=photos",
-    image: "images/imagen1.jpg"
+    image: "images/imagen2.jpg"
     
   },
   {
