@@ -763,6 +763,7 @@ p {
 .feature p {
   font-size: 0.9rem;
   margin: 0;
+  color: #05AD98;
   line-height: 1.5;
 }
 
@@ -903,4 +904,5 @@ p {
     scroll-behavior: auto;
   }
 }
+
 
