@@ -374,6 +374,7 @@ p {
   backdrop-filter: blur(15px);
   font-size: 0.9rem;
   font-weight: 500;
+  color: #05AD98;
   transition: var(--transition-normal);
   box-shadow: 0 4px 12px rgba(5, 173, 152, 0.1);
 }
@@ -902,3 +903,4 @@ p {
     scroll-behavior: auto;
   }
 }
+
