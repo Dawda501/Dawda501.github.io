@@ -54,7 +54,7 @@ const projects = [
   {
     category: "web",
     title: "Professional Website for Personally co-founded Organization",
-    description: "Complete website for a Web Development/ Design and Graphic Design, Mobile Development and SaaS soltions company",
+    description: "Complete website for a Web Development/ Design and Graphic Design, Mobile Development and SaaS solutions company",
     tech: ["React", "JavaScript", "Brand Strategy", "Node.js"],
     link: "https://flyarcdevs.site",
     image: "images/flyarcdevs.png"
