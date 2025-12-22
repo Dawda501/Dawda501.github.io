@@ -14,7 +14,7 @@ const projects = [
     category: "web",
     title: "An Inventory, Content and Personnel Management System",
     description: "Full Stack React Application",
-    tech: ["Next.js", "MongoDB", "React", "PostgreSQL"],
+    tech: ["Node.js", "MongoDB", "React", "Expressjs"],
     link: "https://cmsboss.onrender.com",
     image: "images/cmsboss.png"
   },
