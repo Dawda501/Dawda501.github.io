@@ -37,11 +37,11 @@ const projects = [
   },
   {
     category: "design",
-    title: "Mobile App Design",
+    title: "Web and Mobile App Design",
     description: "UI/UX design for an Inventory Management Mobile Application",
     tech: ["Figma", "Prototyping", "User Testing", "Design System"],
-    link: "https://lightroom.adobe.com/libraries/837b4713b61f47f893506a1a598d6ca2/assets?panel=organize&tab=photos",
-    image: "images/imagen5.jpg"
+    link: "https://www.figma.com/make/bMtMuSnMh6pO8cq470XxaT/School-Management-System?t=4NRFoSZ7zvvj2YLj-1",
+    image: "images/figma.jpg"
     
   },
   {
