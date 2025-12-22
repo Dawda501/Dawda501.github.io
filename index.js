@@ -7,7 +7,7 @@ const projects = [
     title: "E-commerce Platform",
     description: "Full-stack e-commerce solution with payment integration",
     tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    link: "https://kumbisaleh.onrender.com",
+    link: "https://kumbi-saleh.onrender.com",
     image: "images/kumbiSaleh.png"
   },
   {
@@ -15,7 +15,7 @@ const projects = [
     title: "An Inventory, Content and Personnel Management System",
     description: "Full Stack React Application",
     tech: ["Next.js", "MongoDB", "React", "PostgreSQL"],
-    link: "https://cmsmaestro.onrender.com",
+    link: "https://cmsboss.onrender.com",
     image: "images/cms.png"
   },
     {
@@ -23,7 +23,7 @@ const projects = [
     title: "An Online Pastry Selling Service",
     description: "Full-stack e-commerce solution with delivery and payment terms integration",
     tech: ["Next.js", "TypeScript", "MongoDB", "PostgreSQL"],
-    link: "https://eucabites.onrender.com",
+    link: "https://euca-bites.onrender.com",
     image: "images/euca.png"
     
   },
