@@ -41,7 +41,7 @@ const projects = [
     description: "UI/UX design for an Inventory Management Mobile Application",
     tech: ["Figma", "Prototyping", "User Testing", "Design System"],
     link: "https://www.figma.com/make/bMtMuSnMh6pO8cq470XxaT/School-Management-System?t=4NRFoSZ7zvvj2YLj-1",
-    image: "images/figma.jpg"
+    image: "images/figma.png"
     
   },
   {
