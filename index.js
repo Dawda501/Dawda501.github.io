@@ -41,7 +41,7 @@ const projects = [
     description: "UI/UX design for a School Management Web and Mobile Application",
     tech: ["Figma", "Prototyping", "User Testing", "Design System"],
     link: "https://www.figma.com/make/bMtMuSnMh6pO8cq470XxaT/School-Management-System?t=4NRFoSZ7zvvj2YLj-1",
-    image: "images/figma.png"
+    image: "images/figma_sms.png"
     
   },
   {
