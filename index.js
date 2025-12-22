@@ -16,7 +16,7 @@ const projects = [
     description: "Full Stack React Application",
     tech: ["Next.js", "MongoDB", "React", "PostgreSQL"],
     link: "https://cmsboss.onrender.com",
-    image: "images/cms.png"
+    image: "images/cmsboss.png"
   },
     {
     category: "web",
