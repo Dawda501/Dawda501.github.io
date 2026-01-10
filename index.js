@@ -57,7 +57,7 @@ const projects = [
     description: "Full-stack MERN application for report, PowerPoint generation and data analysis using AI",
     tech: ["React", "Node.js", "MongoDB", "AI Integration", "Google OAuth"],
     link: "https://manuscriptai.onrender.com",
-    image: "images/manuscript.png"
+    image: "images/manuscript.jpg"
     },
   {
     category: "web",
