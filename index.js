@@ -7,7 +7,7 @@ const projects = [
     title: "E-commerce Platform",
     description: "Full-stack e-commerce solution with payment integration",
     tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    link: "https://kumbi-saleh.onrender.com",
+    link: "https://kumbisaleh.onrender.com",
     image: "images/kumbiSaleh.png"
   },
   {
@@ -15,14 +15,14 @@ const projects = [
     title: "An Inventory, Content and Personnel Management System",
     description: "Full Stack React Application",
     tech: ["Node.js", "MongoDB", "React", "Expressjs"],
-    link: "https://cmsboss.onrender.com",
+    link: "https://cmsmaster.onrender.com",
     image: "images/cmsboss.png"
   },
     {
     category: "web",
     title: "An Online Pastry Selling Service",
     description: "Full-stack e-commerce solution with delivery and payment terms integration",
-    tech: ["Next.js", "TypeScript", "MongoDB", "PostgreSQL"],
+    tech: ["Backend Auth", "MERN Stack", "SMS Service", "Email Order Service"],
     link: "https://euca-bites.onrender.com",
     image: "images/euca.png"
     
@@ -51,6 +51,14 @@ const projects = [
     tech: ["Markdown", "OpenAPI", "Postman", "Technical Writing"],
     link: "#"
   },
+    {
+    category: "web",
+    title: "Manuscript AI",
+    description: "Full-stack MERN application for report, PowerPoint generation and data analysis using AI",
+    tech: ["React", "Node.js", "MongoDB", "AI Integration", "Google OAuth"],
+    link: "https://manuscriptai.onrender.com",
+    image: "images/manuscript.png"
+    },
   {
     category: "web",
     title: "Professional Website for Personally co-founded Organization",
