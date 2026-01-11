@@ -23,7 +23,7 @@ const projects = [
     title: "An Online Pastry Selling Service",
     description: "Full-stack e-commerce solution with delivery and payment terms integration",
     tech: ["Backend Auth", "MERN Stack", "SMS Service", "Email Order Service"],
-    link: "https://euca-bites.onrender.com",
+    link: "https://eucabites.onrender.com",
     image: "images/euca.png"
     
   },
