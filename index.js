@@ -73,7 +73,7 @@ const projects = [
     description: "A comprehensive MERN stack School Management System with enterprise-grade security, FERPA compliance, PWA support, and mobile responsiveness.",
     tech: ["React", "JavaScript", "Expressjs", "Node.js","Typescript", "PWA Support"],
     link: "https://edumanagepro-p64s.onrender.com",
-    image: "images/edupro.png"
+    image: "images/edumanagepro.png"
   }
 ];
 
