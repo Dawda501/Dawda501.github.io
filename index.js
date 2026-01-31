@@ -14,7 +14,7 @@ const projects = [
     category: "web",
     title: "An Inventory, Content and Personnel Management System",
     description: "Full Stack React Application",
-    tech: ["Node.js", "MongoDB", "React", "Expressjs"],
+    tech: ["Node.js", "MongoDB", "React", "Expressjs","Data Analytics"],
     link: "https://cmsmaster.onrender.com",
     image: "images/cmsboss.png"
   },
@@ -31,7 +31,7 @@ const projects = [
     category: "web",
     title: "Professional Portfolio Website",
     description: "Complete portfolio website for a medical professional",
-    tech: ["React", "JavaScript", "Brand Strategy", "Node.js"],
+    tech: ["React", "JavaScript", "Brand Strategy", "HTML","CSS"],
     link: "https://maggiegyamfi.site",
     image: "images/maggie.png"
   },
@@ -61,11 +61,19 @@ const projects = [
     },
   {
     category: "web",
-    title: "Professional Website for Personally co-founded Organization",
+    title: "Professional Website for Co-Founded Software Organization",
     description: "Complete website for a Web Development/ Design and Graphic Design, Mobile Development and SaaS solutions company",
-    tech: ["React", "JavaScript", "Brand Strategy", "Node.js"],
+    tech: ["React", "JavaScript", "Brand Strategy", "HTML", "CSS"],
     link: "https://flyarcdevs.site",
     image: "images/flyarcdevs.png"
+  },
+    {
+    category: "web",
+    title: "A full Stack School Management System",
+    description: "A comprehensive MERN stack School Management System with enterprise-grade security, FERPA compliance, PWA support, and mobile responsiveness.",
+    tech: ["React", "JavaScript", "Expressjs", "Node.js","Typescript", "PWA Support"],
+    link: "https://edumanagepro-p64s.onrender.com",
+    image: "images/edupro.png"
   }
 ];
 
